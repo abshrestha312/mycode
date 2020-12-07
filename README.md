@@ -1,5 +1,6 @@
 # mycode
 Learning to track my code
+I want to learn how to version control projects with git.
 # mycode (Learn Python and Network Automation)
 The purpose of this repo is to learn using GitHub, Python and Network Automation.
 
