@@ -25,4 +25,16 @@ while True:
         print("\n" + str(calc1) + " - " + str(calc2) + " = " + str(calc1 - calc2))
     else:
         print("\n Not a valid entry. Restarting...")
-
+quit = False
+while quit != True:
+    num1 = input("What is the first operator? Or, enter q to quit: ")
+    num2 = input("What is the second operator? Or, enter q to quit: ")
+    if num1.lower() == "q" or num2.lower() == "q":
+        break
+    #Improve with error handling !!!
+    num1 = float(num1)
+    num2 = float(num2)
+    operation = input("What operator are we using? (+ or -): ")
+    if operation == "+":
+        print(f"\n{num1} + {num2} = {num1 + num2}"
+    if operation == "-"
